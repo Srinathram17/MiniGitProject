@@ -64,6 +64,12 @@ public class JUnittttttttttttttt  extends BaseClass {
 		quitt(driver);
 	}
 	
+	@Test
+	public void Test2() {
+		urlLaunch("https://www.facebook.com");
+		driver.findElement(By.id("email")).sendKeys("9840482080");
+		driver.findElement(By.id("pass")).sendKeys("9840482080");
+		driver.findElement(By.name("login")).click();
 	
-	
+	}
 }
